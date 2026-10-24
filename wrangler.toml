@@ -1,0 +1,6 @@
+name = "cpp-hello"
+main = "src/worker.js"
+compatibility_date = "2026-10-01"
+
+[build]
+command = "mkdir -p build && em++ -O2 -lembind -sMODULARIZE -sEXPORT_ES6 -sENVIRONMENT=web -sDYNAMIC_EXECUTION=0 -o build/app.mjs src/hello.cpp"

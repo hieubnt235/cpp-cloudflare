@@ -1,0 +1,12 @@
+[workspace]
+authors = ["hieubnt <hieu.buinguyen2352001@gmail.com>"]
+channels = ["conda-forge"]
+name = "cpp-cloudflare"
+platforms = ["linux-64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+nodejs = ">=26.12.1,<26.13"
+pnpm = ">=12.4.1,<13"
